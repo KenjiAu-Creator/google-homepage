@@ -1,8 +1,39 @@
-body {
+#div1 {
     text-align:center;
-    margin: 200px 0 100px 0;
+    margin: 200px 0 250px 0;
 }
-
 #YoutubeNote {
     font-size:12px;
+}
+#Country {
+    font-size: 14px;
+    color: rgb(151, 148, 148);
+    margin-left: 50px;
+}
+li.Header {
+    display: inline;
+    font-size: 12px;
+    margin-left: 10px;
+    color: black;
+}
+li.Footer {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+div.fbar {
+    background-color: rgb(238, 237, 237);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+div.fbar2 {
+    background-color: rgb(238, 237, 237);
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+}
+ul.left {
+    float:left;
+}
+ul.right {
+    float: right;
 }
